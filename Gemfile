@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gem 'jekyll'
-gem 'wdm'
+gem 'github-pages'
 
-# gem "rails"
+gem 'jekyll', '~> 3.6.2'
+gem "jekyll-paginate"
+gem 'wdm'
+ruby '2.5.5'
