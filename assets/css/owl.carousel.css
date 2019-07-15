@@ -110,8 +110,11 @@
 
 #owl-demo .item img {
     display: block;
-    width: 100%;
     height: auto;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 100%; // Add this
 }
 
 .owl-theme .owl-controls {
