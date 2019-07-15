@@ -15,7 +15,7 @@ excerpt_separator: "<!--more-->"
 
 
 title : CONCRETESTEELBOND
-tagline: Bootstrap 4 UI kit for jekyll
+tagline: The One
 author :
   name : Mahesh Gaikwad
   site: https://concretesteelbond.com
@@ -38,7 +38,6 @@ twitter_username: concretesteelb
 #
 JB :
   version : 0.3.0
-
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
@@ -62,6 +61,7 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
   BASE_PATH : https://www.concretesteelbond.com
+  production_url : https://www.concretesteelbond.com
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
